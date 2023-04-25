@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+} 
+
+/* HEADER */
+a:hover {
+    color: red;
+    padding: 20px;
+}
+
+.logo-header {
+    background-color: black;
+}
+
+.logo-name {
+    color: white;
+    padding-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Domine', serif;
+}
+
+.header {
+    background-color: black;
+    min-width: 1000px;
+}
+
+.header-item {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-enlace {
+    margin-top: 50px;
+    font-family: 'Cinzel', serif;
+}
+/* FIN HEADER */
+
+/* SECTION 1 */
+.section-item {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.titulo {
+    border: solid black 5px;
+    width: 150px;
+    background-color: red;
+    font-family: 'Merriweather', serif;
+}
+
+.fut-arg {
+    width: 210px;
+}
+
+.fut-eur {
+    width: 190px;
+}
+
+.img-container {
+    display: flex;
+    display: inline-block;
+    margin: 30px;
+} 
+.img-section {
+    width: 38vh;
+    height: 38vh;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+.info-camiseta {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+/* FIN SECTION 1 */
+
+/* SECTION 2 */
+.logo-section-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.logo-name-section-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5px;
+    font-family: 'Domine', serif;
+}
+
+/* FIN SECTION 2 */
+
+/* FOOTER */
+.footer-container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    min-width: 900px;
+}
+
+h3 {
+    color: white;
+    margin-left: 28px;
+}
+
+.footer-enlace {
+    margin: 30px;
+    margin-right: 100px;
+    font-family: 'Cinzel', serif;
+} 
+
+.titulo-enlace-footer {
+    font-family: 'Merriweather', serif;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 945px) {
+    .header-item {
+        flex-direction: column;
+    }
+
+    .header-enlace {
+        padding: 5px;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        padding-left: 90px;
+    }
+
+    .section-container {
+        display: flex;
+        justify-content: center;
+        
+    }    
+}
+
+
