@@ -3,52 +3,73 @@
     margin: 0;
 }
 
-a {
+.enlace-container {
+    padding-top: 20px;
+}
+.header-enlace {
     text-decoration: none;
-    list-style-type: none;
-    color: white;
+    color: white; 
+    font-family: 'Cinzel', serif;
+    margin: 40px;
 }
 
-ul {
-    list-style-type: none;
-} 
-
-/* HEADER */
-a:hover {
+.header-enlace:hover {
     color: red;
     padding: 20px;
 }
 
-.logo-header {
-    background-color: black;
+ul {
+    list-style-type: none;
 }
 
-.logo-name {
-    color: white;
-    padding-top: 50px;
-    display: inline-block;
-    vertical-align: top;
-    font-family: 'Domine', serif;
-}
-
-.header {
+/* HEADER */
+.header-container {
+    width: 100%;
     background-color: black;
-    min-width: 1000px;
 }
 
 .header-item {
-    padding: 20px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.header-enlace {
-    margin-top: 50px;
-    font-family: 'Cinzel', serif;
+.enlace-container {
+    margin-left: 70px;
+}
+
+.logo-name {
+    color: white;
+    padding-top: 30px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Domine', serif;
+    padding-right: 15px;
+}
+
+
+/* HEADER MOBILE */
+@media screen and (max-width: 945px) {
+    .header-enlace {
+        margin: 5px;
+    }
+
+    .logo-name {
+        padding-right: 55px;
+        padding-bottom: 15px;
+    }
+
+    .enlace-container {
+        margin-left: 10px;
+    }
 }
 /* FIN HEADER */
 
-/* SECTION 1 */
+/* MAIN */
+.main-container {
+    width: 100%;
+    background-color: red;
+}
+
 .section-item {
     padding-top: 30px;
     padding-left: 30px;
@@ -56,29 +77,23 @@ a:hover {
 
 .titulo {
     border: solid black 5px;
-    width: 150px;
+    width: 205px;
     background-color: red;
     font-family: 'Merriweather', serif;
+    font-size:25px
 }
 
-.fut-arg {
-    width: 210px;
-}
-
-.fut-eur {
-    width: 190px;
-}
-
-.img-container {
-    display: flex;
-    display: inline-block;
-    margin: 30px;
-} 
 .img-section {
     width: 38vh;
     height: 38vh;
     padding-top: 50px;
     padding-left: 15px;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info-camiseta {
@@ -87,31 +102,16 @@ a:hover {
     padding: 5px;
     font-family: 'Oswald', sans-serif;
 }
-/* FIN SECTION 1 */
 
-/* SECTION 2 */
-.logo-section-2 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-}
-
-.logo-name-section-2 {
-    display: flex;
-    justify-content: space-around;
-    padding-right: 5px;
-    font-family: 'Domine', serif;
-}
-
-/* FIN SECTION 2 */
+/* FIN MAIN */
 
 /* FOOTER */
 .footer-container {
+    width: 100%;
     padding-top: 100px;
     display: flex;
     justify-content: space-around;
     background-color: black;
-    min-width: 900px;
 }
 
 h3 {
@@ -119,37 +119,27 @@ h3 {
     margin-left: 28px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .footer-enlace {
     margin: 30px;
     margin-right: 100px;
     font-family: 'Cinzel', serif;
+    color: white;
 } 
 
 .titulo-enlace-footer {
     font-family: 'Merriweather', serif;
 }
 
-
-/* MOBILE */
+/* FOOTER MOBILE */
 @media screen and (max-width: 945px) {
-    .header-item {
+    .footer-container {
         flex-direction: column;
     }
-
-    .header-enlace {
-        padding: 5px;
-    }
-
-    .footer-container {
-        flex-direction: row;
-        padding-left: 90px;
-    }
-
-    .section-container {
-        display: flex;
-        justify-content: center;
-        
-    }    
 }
 
 
