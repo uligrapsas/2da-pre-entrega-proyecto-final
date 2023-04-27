@@ -116,6 +116,20 @@ ul {
     font-family: 'Oswald', sans-serif;
 }
 
+/* MAIN MOBILE */
+@media screen and (max-width: 945px) {
+    .img-container {
+        border: solid black 5px;
+        width: 100%;
+    }
+
+    .img-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* FIN MAIN MOBILE */
 /* FIN MAIN */
 
 /* FOOTER */
@@ -152,11 +166,6 @@ a {
 @media screen and (max-width: 945px) {
     .footer-container {
         flex-direction: column;
-    }
-
-    .img-container {
-        border: solid black 5px;
-        margin-bottom: 50px;
     }
 }
 
