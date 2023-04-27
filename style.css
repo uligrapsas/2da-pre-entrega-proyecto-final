@@ -81,6 +81,12 @@ ul {
     font-size:25px
 }
 
+.img-container {
+    border: solid black 5px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
 .img-section {
     width: 38vh;
     height: 38vh;
