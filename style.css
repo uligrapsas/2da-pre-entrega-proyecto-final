@@ -121,6 +121,7 @@ ul {
     .img-container {
         border: solid black 5px;
         width: 100%;
+        margin-left: 10px;
     }
 
     .img-section {
