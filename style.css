@@ -119,7 +119,7 @@ ul {
 /* MAIN MOBILE */
 @media screen and (max-width: 945px) {
     .img-container {
-        border: solid black 5px;
+        border: solid black 3px;
         width: 100%;
         margin-left: 10px;
     }
