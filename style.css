@@ -148,8 +148,9 @@ a {
         flex-direction: column;
     }
 
-    .info-camiseta {
-        font-size: 19.5px;
+    .img-container {
+        border: solid black 5px;
+        margin-bottom: 50px;
     }
 }
 
