@@ -81,6 +81,14 @@ ul {
     font-size:25px
 }
 
+.fut-arg {
+    width: 228px;
+}
+
+.destacado {
+    width: 170px;
+}
+
 .img-container {
     border: solid black 5px;
     margin-bottom: 50px;
@@ -106,8 +114,11 @@ ul {
     justify-content: center;
     padding: 5px;
     font-family: 'Oswald', sans-serif;
-    flex-wrap: wrap;
     font-size: 15px;
+}
+
+.des {
+    font-family: 'Oswald', sans-serif;
 }
 
 .info-camiseta-precio {
@@ -116,6 +127,14 @@ ul {
     font-family: 'Oswald', sans-serif;
 }
 
+.logo-section-2 {
+    padding-left: 700px;
+}
+
+.logo-name-section-2 {
+    font-family: 'Domine', serif;
+    padding-left: 708px;
+}
 /* MAIN MOBILE */
 @media screen and (max-width: 945px) {
     .img-container {
@@ -128,6 +147,14 @@ ul {
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .logo-section-2 {
+        padding-left: 115px;
+    }
+
+    .logo-name-section-2 {
+        padding-left: 120px;
     }
 }
 /* FIN MAIN MOBILE */
