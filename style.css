@@ -89,6 +89,14 @@ ul {
     width: 170px;
 }
 
+.fut-retro {
+    width: 170px;
+}
+
+.sel-arg {
+    width: 265px;
+}
+
 .img-container {
     border: solid black 5px;
     margin-bottom: 50px;
