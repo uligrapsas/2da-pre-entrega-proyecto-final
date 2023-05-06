@@ -1,0 +1,55 @@
+header {
+    width: 100%;
+    .enlace-container {
+        padding-top: 20px;
+    }
+    .header-enlace {
+        text-decoration: none;
+        color: white; 
+        font-family: 'Cinzel', serif;
+        margin: 40px;
+    }
+    
+    .header-enlace:hover {
+        color: red;
+        padding: 20px;
+    }
+    
+    .header-container {
+        width: 100%;
+        background-color: black;
+    }
+    
+    .header-item {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .enlace-container {
+        margin-left: 70px;
+    }
+    
+    .logo-name {
+        color: white;
+        padding-top: 30px;
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'Domine', serif;
+        padding-right: 15px;
+    }
+
+    @media screen and (max-width: 945px) {
+        width: 100%;
+        .header-enlace {
+            margin: 5px;
+        }
+    
+        .logo-name {
+            padding-bottom: 15px;
+        }
+    
+        .enlace-container {
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.img-section {
+  width: 38vh;
+  height: 38vh;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+
+header {
+  width: 100%;
+}
+header .enlace-container {
+  padding-top: 20px;
+}
+header .header-enlace {
+  text-decoration: none;
+  color: white;
+  font-family: "Cinzel", serif;
+  margin: 40px;
+}
+header .header-enlace:hover {
+  color: red;
+  padding: 20px;
+}
+header .header-container {
+  width: 100%;
+  background-color: black;
+}
+header .header-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .enlace-container {
+  margin-left: 70px;
+}
+header .logo-name {
+  color: white;
+  padding-top: 30px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Domine", serif;
+  padding-right: 15px;
+}
+@media screen and (max-width: 945px) {
+  header {
+    width: 100%;
+  }
+  header .header-enlace {
+    margin: 5px;
+  }
+  header .logo-name {
+    padding-bottom: 15px;
+  }
+  header .enlace-container {
+    margin-left: 10px;
+  }
+}
+
+main {
+  width: 100%;
+}
+main .section-item {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+main .titulo {
+  border: solid black 5px;
+  width: 205px;
+  background-color: red;
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+main .destacado {
+  width: 170px;
+}
+main .fut-arg {
+  width: 228px;
+}
+main .sel-arg {
+  width: 265px;
+}
+main .fut-retro {
+  width: 170px;
+}
+main .img-container {
+  border: solid black 5px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+main .img-section {
+  width: 38vh;
+  height: 38vh;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+main .section-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .info-camiseta {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+}
+main .info-camiseta-precio {
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+}
+main .logo-section-2 {
+  padding-left: 700px;
+}
+main .logo-name-section-2 {
+  font-family: "Domine", serif;
+  padding-left: 708px;
+}
+@media screen and (max-width: 945px) {
+  main {
+    width: 100%;
+  }
+  main .img-container {
+    border: solid black 3px;
+    width: 100%;
+    margin-left: 10px;
+  }
+  main .img-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  main .logo-section-2 {
+    padding-left: 160px;
+  }
+  main .logo-name-section-2 {
+    padding-left: 165px;
+  }
+}
+
+footer {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+footer h3 {
+  color: white;
+  margin-left: 28px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer-enlace {
+  margin: 30px;
+  margin-right: 100px;
+  font-family: "Cinzel", serif;
+  color: white;
+}
+footer .titulo-enlace-footer {
+  font-family: "Merriweather", serif;
+}
+@media screen and (max-width: 945px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
