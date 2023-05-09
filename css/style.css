@@ -67,46 +67,37 @@ header .logo-name {
 main {
   width: 100%;
 }
-main .section-item {
+main section div .section-item {
   padding-top: 30px;
   padding-left: 30px;
 }
-main .titulo {
+main section div h1 .titulo {
   border: solid black 5px;
   width: 205px;
   background-color: red;
   font-family: "Merriweather", serif;
   font-size: 25px;
 }
-main .destacado {
+main section div h1 .destacado {
   width: 170px;
 }
-main .fut-arg {
-  width: 228px;
+main section div .section-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-main .sel-arg {
-  width: 265px;
-}
-main .fut-retro {
-  width: 170px;
-}
-main .img-container {
+main section div div .img-container {
   border: solid black 5px;
   margin-bottom: 50px;
   margin-right: 10px;
 }
-main .img-section {
+main section div div img .img.section {
   width: 38vh;
   height: 38vh;
   padding-top: 50px;
   padding-left: 15px;
 }
-main .section-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-main .info-camiseta {
+main section div div h5 .info-camiseta {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -114,38 +105,17 @@ main .info-camiseta {
   font-family: "Oswald", sans-serif;
   font-size: 15px;
 }
-main .info-camiseta-precio {
+main section div div p .info-camiseta-precio {
   display: flex;
   justify-content: center;
   font-family: "Oswald", sans-serif;
 }
-main .logo-section-2 {
+main section div .logo-section-2 {
   padding-left: 700px;
 }
-main .logo-name-section-2 {
+main section div h5 .logo-name-section-2 {
   font-family: "Domine", serif;
   padding-left: 708px;
-}
-@media screen and (max-width: 945px) {
-  main {
-    width: 100%;
-  }
-  main .img-container {
-    border: solid black 3px;
-    width: 100%;
-    margin-left: 10px;
-  }
-  main .img-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  main .logo-section-2 {
-    padding-left: 160px;
-  }
-  main .logo-name-section-2 {
-    padding-left: 165px;
-  }
 }
 
 footer {
