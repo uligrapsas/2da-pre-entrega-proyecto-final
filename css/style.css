@@ -45,11 +45,6 @@ header .header-container div .enlace-container .header-enlace:hover {
     padding-bottom: 15px;
     font-size: 20px;
   }
-  header .header-container div .boton-desplazable {
-    font-size: 10px;
-    padding: 10px;
-    margin-top: 5px;
-  }
   header .header-container div .enlace-container {
     margin-left: 10px;
   }
