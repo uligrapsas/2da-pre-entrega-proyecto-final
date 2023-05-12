@@ -34,16 +34,17 @@ header {
             div {
                 .logo-name {
                     padding-bottom: 15px;
-                    font-size: 16px;
+                    font-size: 20px;
+                }
+                .boton-desplazable {
+                    font-size: 10px;
+                    padding: 10px;
+                    margin-top: 5px;
                 }
                 .enlace-container {
                     margin-left: 10px;
-                }
-                ul {
-                    li {
-                        .header-enlace {
-                            margin: 5px;
-                        }
+                    .header-enlace {
+                        margin: 5px;
                     }
                 }
             }
