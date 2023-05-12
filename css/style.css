@@ -76,6 +76,9 @@ main section .section-item .fut-arg {
 main section .section-item .fut-retro {
   width: 170px;
 }
+main section .section-item .sel-arg {
+  width: 265px;
+}
 main section .section-container {
   display: flex;
   justify-content: center;
