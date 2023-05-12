@@ -7,41 +7,18 @@ ul {
   list-style-type: none;
 }
 
-.img-section {
-  width: 38vh;
-  height: 38vh;
-  padding-top: 50px;
-  padding-left: 15px;
+a {
+  text-decoration: none;
 }
 
 header {
   width: 100%;
 }
-header .enlace-container {
-  padding-top: 20px;
-}
-header .header-enlace {
-  text-decoration: none;
-  color: white;
-  font-family: "Cinzel", serif;
-  margin: 40px;
-}
-header .header-enlace:hover {
-  color: red;
-  padding: 20px;
-}
 header .header-container {
   width: 100%;
   background-color: black;
 }
-header .header-item {
-  display: flex;
-  justify-content: space-evenly;
-}
-header .enlace-container {
-  margin-left: 70px;
-}
-header .logo-name {
+header .header-container div .logo-name {
   color: white;
   padding-top: 30px;
   display: inline-block;
@@ -49,55 +26,75 @@ header .logo-name {
   font-family: "Domine", serif;
   padding-right: 15px;
 }
+header .header-container div .enlace-container {
+  padding-top: 20px;
+  margin-left: 70px;
+}
+header .header-container div .enlace-container .header-enlace {
+  text-decoration: none;
+  color: white;
+  font-family: "Cinzel", serif;
+  margin: 40px;
+}
+header .header-container div .enlace-container .header-enlace:hover {
+  color: red;
+  padding: 20px;
+}
 @media screen and (max-width: 945px) {
-  header {
-    width: 100%;
+  header .header-container {
+    padding-left: 10px;
   }
-  header .header-enlace {
-    margin: 5px;
-  }
-  header .logo-name {
+  header .header-container div .logo-name {
     padding-bottom: 15px;
   }
-  header .enlace-container {
+  header .header-container div .enlace-container {
     margin-left: 10px;
+  }
+  header .header-container div ul li .header-enlace {
+    margin: 5px;
   }
 }
 
 main {
   width: 100%;
 }
-main section div .section-item {
+main section .section-item {
   padding-top: 30px;
   padding-left: 30px;
 }
-main section div h1 .titulo {
+main section .section-item .titulo {
   border: solid black 5px;
   width: 205px;
   background-color: red;
   font-family: "Merriweather", serif;
   font-size: 25px;
 }
-main section div h1 .destacado {
+main section .section-item .destacado {
   width: 170px;
 }
-main section div .section-container {
+main section .section-item .fut-arg {
+  width: 228px;
+}
+main section .section-item .fut-retro {
+  width: 170px;
+}
+main section .section-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-main section div div .img-container {
+main section .section-container .img-container {
   border: solid black 5px;
   margin-bottom: 50px;
   margin-right: 10px;
 }
-main section div div img .img.section {
+main section .section-container .img-container .img-section {
   width: 38vh;
   height: 38vh;
   padding-top: 50px;
   padding-left: 15px;
 }
-main section div div h5 .info-camiseta {
+main section .section-container .img-container .info-camiseta {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -105,17 +102,42 @@ main section div div h5 .info-camiseta {
   font-family: "Oswald", sans-serif;
   font-size: 15px;
 }
-main section div div p .info-camiseta-precio {
+main section .section-container .img-container .info-camiseta-precio {
   display: flex;
   justify-content: center;
   font-family: "Oswald", sans-serif;
 }
-main section div .logo-section-2 {
+main section .logo-section-2 {
   padding-left: 700px;
 }
-main section div h5 .logo-name-section-2 {
+main section .logo-name-section-2 {
   font-family: "Domine", serif;
   padding-left: 708px;
+}
+@media screen and (max-width: 945px) {
+  main section .section-container .img-container {
+    border: solid black 3px;
+    width: 100%;
+    margin-left: 10px;
+  }
+  main section .section-container .img-container .img-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  main section .section-container .img-container .info-camiseta {
+    font-size: 18px;
+  }
+  main section .section-container .img-container .info-camiseta-precio {
+    font-size: 18px;
+  }
+  main section .logo-section-2 {
+    padding-left: 115px;
+  }
+  main section div .logo-name-section-2 {
+    padding-left: 120px;
+  }
 }
 
 footer {
@@ -125,26 +147,22 @@ footer {
   justify-content: space-around;
   background-color: black;
 }
-footer h3 {
-  color: white;
-  margin-left: 28px;
-}
 footer a {
-  text-decoration: none;
   color: white;
 }
-footer .footer-enlace {
+footer nav .titulo-enlace-footer {
+  font-family: "Merriweather", serif;
+  color: white;
+  padding-left: 50px;
+}
+footer nav ul .footer-enlace {
   margin: 30px;
   margin-right: 100px;
   font-family: "Cinzel", serif;
   color: white;
 }
-footer .titulo-enlace-footer {
-  font-family: "Merriweather", serif;
-}
 @media screen and (max-width: 945px) {
   footer {
-    display: flex;
     flex-direction: column;
   }
 }

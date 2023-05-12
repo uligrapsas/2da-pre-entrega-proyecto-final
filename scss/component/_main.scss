@@ -1,85 +1,111 @@
 main {
     width: 100%;
     section {
-        div {
-            .section-item {
-                padding-top: 30px;
-                padding-left: 30px;
+        .section-item {
+            padding-top: 30px;
+            padding-left: 30px;
+            .titulo {
+                border: solid black 5px;
+                width: 205px;
+                background-color: red;
+                font-family: 'Merriweather', serif;
+                font-size:25px
             }
-            h1 {
-                .titulo {
-                    border: solid black 5px;
-                    width: 205px;
-                    background-color: red;
-                    font-family: 'Merriweather', serif;
-                    font-size:25px
-                }
-                .destacado {
-                    width: 170px;
-                }
+            .destacado {
+                width: 170px;
+            }
+            .fut-arg {
+                width: 228px;
+            }
+            .fut-retro {
+                width: 170px;
             }
         }
     }
+
     section {
-        div {
-            .section-container {
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-            }
-            div {
-                .img-container {
-                    border: solid black 5px;
-                    margin-bottom: 50px;
-                    margin-right: 10px;
+        .section-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .img-container {
+                border: solid black 5px;
+                margin-bottom: 50px;
+                margin-right: 10px;
+                .img-section {
+                    width: 38vh;
+                    height: 38vh;
+                    padding-top: 50px;
+                    padding-left: 15px;
                 }
-                img {
-                    .img.section {
-                        width: 38vh;
-                        height: 38vh;
-                        padding-top: 50px;
-                        padding-left: 15px;
-                    }
+                .info-camiseta {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    padding: 5px;
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 15px;
                 }
-                h5 {
-                    .info-camiseta {
-                        width: 100%;
-                        display: flex;
-                        justify-content: center;
-                        padding: 5px;
-                        font-family: 'Oswald', sans-serif;
-                        font-size: 15px;
-                    }
-                }
-                p {
-                    .info-camiseta-precio {
-                        display: flex;
-                        justify-content: center;
-                        font-family: 'Oswald', sans-serif;
-                    }
+                .info-camiseta-precio {
+                    display: flex;
+                    justify-content: center;
+                    font-family: 'Oswald', sans-serif;
                 }
             }
         }
     }
 
     section {
-        div {
-            .logo-section-2 {
-                padding-left: 700px;
-            }
+        .logo-section-2 {
+            padding-left: 700px;
         }
-        div {
-            h5 {
-                .logo-name-section-2 {
-                    font-family: 'Domine', serif;
-                    padding-left: 708px;
+        .logo-name-section-2 {
+            font-family: 'Domine', serif;
+            padding-left: 708px;
+        }
+    }
 
+    @media screen and (max-width: 945px) {
+       section {
+        .section-container {
+            .img-container {
+                border: solid black 3px;
+                width: 100%;
+                margin-left: 10px;
+                .img-section {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 10px;
+                }
+                .info-camiseta {
+                    font-size: 18px;
+                }
+                .info-camiseta-precio {
+                    font-size: 18px;
                 }
             }
         }
+       }
+
+       section {
+        .logo-section-2 {
+            padding-left: 115px;
+        }
+        div {
+            .logo-name-section-2 {
+                padding-left: 120px;
+            }
+        }
+       }
+        
     }
-                
 }
+
+
+
+
+
 
 
 

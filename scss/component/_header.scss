@@ -1,55 +1,89 @@
 header {
     width: 100%;
-    .enlace-container {
-        padding-top: 20px;
-    }
-    .header-enlace {
-        text-decoration: none;
-        color: white; 
-        font-family: 'Cinzel', serif;
-        margin: 40px;
-    }
-    
-    .header-enlace:hover {
-        color: red;
-        padding: 20px;
-    }
-    
     .header-container {
         width: 100%;
         background-color: black;
-    }
+        div {
+            a {
+
+            }
+            .logo-name {
+                color: white;
+                padding-top: 30px;
+                display: inline-block;
+                vertical-align: top;
+                font-family: 'Domine', serif;
+                padding-right: 15px;
+            }
+            .enlace-container {
+                padding-top: 20px;
+                margin-left: 70px;
+                ul {
     
-    .header-item {
-        display: flex;
-        justify-content: space-evenly;
-    }
+                }
+                li {
     
-    .enlace-container {
-        margin-left: 70px;
-    }
-    
-    .logo-name {
-        color: white;
-        padding-top: 30px;
-        display: inline-block;
-        vertical-align: top;
-        font-family: 'Domine', serif;
-        padding-right: 15px;
+                }
+                .header-enlace {
+                    text-decoration: none;
+                    color: white; 
+                    font-family: 'Cinzel', serif;
+                    margin: 40px;
+                    &:hover {
+                        color: red;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
     }
 
     @media screen and (max-width: 945px) {
-        width: 100%;
-        .header-enlace {
-            margin: 5px;
-        }
-    
-        .logo-name {
-            padding-bottom: 15px;
-        }
-    
-        .enlace-container {
-            margin-left: 10px;
+        .header-container {
+            padding-left: 10px;
+            div {
+                a {
+
+                }
+                .logo-name {
+                    padding-bottom: 15px;
+                }
+                .enlace-container {
+                    margin-left: 10px;
+                }
+                ul {
+                    li {
+                        .header-enlace {
+                            margin: 5px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
