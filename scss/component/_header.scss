@@ -4,9 +4,6 @@ header {
         width: 100%;
         background-color: black;
         div {
-            a {
-
-            }
             .logo-name {
                 color: white;
                 padding-top: 30px;
@@ -18,12 +15,6 @@ header {
             .enlace-container {
                 padding-top: 20px;
                 margin-left: 70px;
-                ul {
-    
-                }
-                li {
-    
-                }
                 .header-enlace {
                     text-decoration: none;
                     color: white; 
@@ -40,11 +31,8 @@ header {
 
     @media screen and (max-width: 945px) {
         .header-container {
-            padding-left: 10px;
+            padding-left: 5px;
             div {
-                a {
-
-                }
                 .logo-name {
                     padding-bottom: 15px;
                 }
