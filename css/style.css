@@ -99,7 +99,6 @@ main section .section-container .img-container .info-camiseta {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 5px;
   font-family: "Oswald", sans-serif;
   font-size: 15px;
 }
