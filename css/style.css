@@ -119,6 +119,7 @@ main section .logo-name-section-2 {
     border: solid black 3px;
     width: 100%;
     margin-left: 10px;
+    overflow: hidden;
   }
   main section .section-container .img-container .img-section {
     width: 100%;
