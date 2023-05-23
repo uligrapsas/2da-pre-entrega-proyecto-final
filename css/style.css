@@ -56,6 +56,14 @@ header .header-container div .enlace-container .header-enlace:hover {
 main {
   width: 100%;
 }
+main .carrousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .carrousel-container .carrousel {
+  width: 30%;
+}
 main section .section-item {
   padding-top: 30px;
   padding-left: 30px;
@@ -115,6 +123,9 @@ main section .logo-name-section-2 {
   padding-left: 708px;
 }
 @media screen and (max-width: 945px) {
+  main .carrousel-container .carrousel {
+    width: 80%;
+  }
   main section .section-container .img-container {
     border: solid black 3px;
     width: 100%;

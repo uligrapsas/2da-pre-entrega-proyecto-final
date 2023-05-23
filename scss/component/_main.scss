@@ -1,5 +1,13 @@
 main {
     width: 100%;
+    .carrousel-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .carrousel {
+            width: 30%;
+        }
+    }
     section {
         .section-item {
             padding-top: 30px;
@@ -68,7 +76,13 @@ main {
     }
 
     @media screen and (max-width: 945px) {
-       section {
+       .carrousel-container {
+        .carrousel {
+            width: 80%;
+        }
+       }
+       
+        section {
         .section-container {
             .img-container {
                 border: solid black 3px;
