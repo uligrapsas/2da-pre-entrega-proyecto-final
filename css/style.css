@@ -60,7 +60,7 @@ main .carrousel-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(145, 2, 2);
+  background-color: rgb(61, 61, 61);
   padding-top: 20px;
 }
 main .carrousel-container div .tit {
@@ -151,7 +151,7 @@ main section .logo-name-section-2 {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-left: 10px;
+    padding-right: 15px;
   }
   main section .section-container .img-container .info-camiseta {
     font-size: 15px;
@@ -187,6 +187,11 @@ footer nav ul .footer-enlace {
   margin-right: 100px;
   font-family: "Cinzel", serif;
   color: white;
+}
+footer nav ul .footer-enlace .whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
 }
 @media screen and (max-width: 945px) {
   footer {
