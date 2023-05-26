@@ -20,11 +20,12 @@ header .header-container {
 }
 header .header-container div .logo-name {
   color: white;
-  padding-top: 30px;
+  padding-top: 20px;
   display: inline-block;
   vertical-align: top;
   font-family: "Domine", serif;
   padding-right: 15px;
+  font-size: 30px;
 }
 header .header-container div .enlace-container {
   padding-top: 20px;
