@@ -1,8 +1,9 @@
+@import "../base/variables";
 header {
     width: 100%;
     .header-container {
         width: 100%;
-        background-color: black;
+        background-color: $background-general;
         div {
             .logo-name {
                 color: white;
@@ -17,7 +18,7 @@ header {
                 margin-left: 70px;
                 .header-enlace {
                     text-decoration: none;
-                    color: white; 
+                    color: $font-color-principal;
                     font-family: 'Cinzel', serif;
                     margin: 40px;
                     &:hover {

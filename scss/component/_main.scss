@@ -7,7 +7,7 @@ main {
         background-color: rgb(61, 61, 61);
         padding-top: 20px;
         div {
-            .tit {
+            .tit-carrousel {
                 color: white;
                 font-family: 'Heebo', sans-serif;
             }
@@ -29,9 +29,9 @@ main {
             padding-top: 10px;
             padding-left: 30px;
             .titulo {
-                border: solid black 5px;
+                border: $border-titulo-general;
+                background-color: $background-titulo-general;
                 width: 205px;
-                background-color: red;
                 font-family: 'Merriweather', serif;
                 font-size:25px
             }
@@ -69,13 +69,13 @@ main {
                     width: 100%;
                     display: flex;
                     justify-content: center;
-                    font-family: 'Oswald', sans-serif;
+                    font-family: $font-info-camiseta;
                     font-size: 15px;
                 }
                 .info-camiseta-precio {
                     display: flex;
                     justify-content: center;
-                    font-family: 'Oswald', sans-serif;
+                    font-family: $font-info-camiseta;
                 }
             }
         }

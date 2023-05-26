@@ -63,7 +63,7 @@ main .carrousel-container {
   background-color: rgb(61, 61, 61);
   padding-top: 20px;
 }
-main .carrousel-container div .tit {
+main .carrousel-container div .tit-carrousel {
   color: white;
   font-family: "Heebo", sans-serif;
 }
@@ -82,8 +82,8 @@ main section .section-item {
 }
 main section .section-item .titulo {
   border: solid black 5px;
-  width: 205px;
   background-color: red;
+  width: 205px;
   font-family: "Merriweather", serif;
   font-size: 25px;
 }
@@ -186,9 +186,14 @@ footer nav ul .footer-enlace {
   margin: 30px;
   margin-right: 100px;
   font-family: "Cinzel", serif;
+}
+footer nav ul .footer-enlace a {
   color: white;
 }
-footer nav ul .footer-enlace .whatsapp {
+footer nav ul .footer-enlace a:hover {
+  color: red;
+}
+footer nav ul .footer-enlace .logo-whatsapp {
   position: fixed;
   bottom: 20px;
   right: 5px;

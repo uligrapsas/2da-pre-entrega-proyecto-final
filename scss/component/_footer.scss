@@ -1,9 +1,10 @@
+@import "../base/variables";
 footer {
     width: 100%;
     padding-top: 100px;
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: $background-general;
     a {
         color: white;
     }
@@ -18,8 +19,13 @@ footer {
                 margin: 30px;
                 margin-right: 100px;
                 font-family: 'Cinzel', serif;
-                color: white;
-                .whatsapp {
+                a {
+                    color: $font-color-principal;
+                    &:hover {
+                        color: red;
+                    }
+                }
+                .logo-whatsapp {
                     position: fixed;
                     bottom: 20px;
                     right: 5px;
@@ -32,72 +38,3 @@ footer {
         flex-direction: column;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// footer {
-//     width: 100%;
-//     padding-top: 100px;
-//     display: flex;
-//     justify-content: space-around;
-//     background-color: black;
-    
-//     h3 {
-//         color: white;
-//         margin-left: 28px;
-//     }
-    
-//     a {
-//         text-decoration: none;
-//         color: white;
-//     }
-    
-//     .footer-enlace {
-//         margin: 30px;
-//         margin-right: 100px;
-//         font-family: 'Cinzel', serif;
-//         color: white;
-//     } 
-    
-//     .titulo-enlace-footer {
-//         font-family: 'Merriweather', serif;
-//     }
-    
-//     @media screen and (max-width: 945px) {
-//         display: flex;
-//         flex-direction: column;
-//     }
-// }
